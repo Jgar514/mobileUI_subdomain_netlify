@@ -17,12 +17,16 @@ function App() {
 	return (
 		<>
 			{/*  */}
-			<div className="h-full bg-izzy-400">
-				<Top />
+			<div className="flex justify-center lg:h-screen">
+				<div className="lg:w-96 lg:absolute lg:bottom-0  border-black border-2 rounded-2xl overflow-hidden">
+					<div className="h-full bg-izzy-400">
+						<Top />
 
-				<Middle />
+						<Middle />
 
-				<Bottom />
+						<Bottom />
+					</div>
+				</div>
 			</div>
 		</>
 	);

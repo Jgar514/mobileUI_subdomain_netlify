@@ -9,7 +9,7 @@ export default function Header() {
 				<img src="https://designbygio.it/images/logo.png" alt="logo" />
 			</a> */}
 			<nav>
-				<section className="MOBILE-MENU flex lg:hidden">
+				<section className="MOBILE-MENU flex ">
 					<div className="HAMBURGER-ICON space-y-2" onClick={() => setIsNavOpen((prev) => !prev)}>
 						<span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
 						<span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -36,21 +36,6 @@ export default function Header() {
 						</ul>
 					</div>
 				</section>
-
-				<ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-					<li>
-						<a href="/about">About</a>
-					</li>
-					<li>
-						<a href="/portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a href="/contact">Contact</a>
-					</li>
-					<li>
-						<a href="/contact">Contact</a>
-					</li>
-				</ul>
 			</nav>
 			<style>{`
       .hideMenuNav {
