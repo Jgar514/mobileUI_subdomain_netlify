@@ -1,5 +1,5 @@
 import React from "react";
-// import propic from "../assets/propic.jpeg";
+import propic from "../assets/propic.jpeg";
 
 function Profile() {
 	return (
@@ -8,7 +8,7 @@ function Profile() {
 			<div className="flex h-1/2">
 				<div className="w-full">
 					<div className="bg-white gap-2 w-full flex p-2 justify-start">
-						{/* <img src={propic} className=" rounded-full bg-white h-full w-auto mx-2 border-2  border-black " /> */}
+						<img src={propic} className=" rounded-full bg-white h-full w-auto mx-2 border-2  border-black " />
 						<div className="flex flex-col">
 							<h1 className="flex  text-2xl text-start  font-bold pt-1">Joshua Garvey</h1>
 							<p className="text-lg">"Status"</p>
