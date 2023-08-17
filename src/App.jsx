@@ -18,7 +18,7 @@ function App() {
 		<>
 			{/*  */}
 			<div className="flex justify-center lg:h-screen">
-				<div className="lg:w-96 lg:absolute lg:bottom-0  border-black border-2 rounded-2xl overflow-hidden">
+				<div className="lg:w-96 lg:absolute lg:bottom-0 md:w-96 md:absolute md:bottom-0 sm:w-96 sm:absolute sm:bottom-0   border-black border-4 rounded-lg overflow-hidden">
 					<div className="h-full bg-izzy-400">
 						<Top />
 
