@@ -8,7 +8,7 @@ Mobile User Interface
 
 ## Immersive 3D Portfolio
 
-![Alt text](https://github.com/Jgar514/JoshandEllie/blob/main/ui.gif)
+![Alt text](https://github.com/Jgar514/JoshandEllie/blob/main/ui_1.gif)
 
 <!-- <img width="400" alt="Screenshot 2023-07-02 at 12 05 25 AM" src="https://github.com/Jgar514/subdomain_popup/blob/main/popup.gif"> -->
 
