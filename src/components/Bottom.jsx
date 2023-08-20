@@ -16,7 +16,7 @@ function Bottom() {
 						<AiFillLinkedin />
 					</button>
 
-					<a href="">
+					<a href="https://www.instagram.com/joshgarvey/">
 						<AiOutlineInstagram />
 					</a>
 					<a href="">
