@@ -8,7 +8,7 @@ Mobile User Interface
 
 ## Mobile User Interface
 
-[<img width="500" alt="Screenshot 2023-06-12 at 4 00 13 PM" src="https://github.com/Jgar514/subdomain_netlify/blob/main/src/images/Uiscreenshot.png">](http://UI.JoshuaGarvey.com/)
+[<img width="500" alt="Screenshot 2023-06-12 at 4 00 13 PM" src="https://github.com/Jgar514/subdomain_netlify/blob/main/src/images/uiscreenshot2.png">](http://UI.JoshuaGarvey.com/)
 
 ![Alt text](https://github.com/Jgar514/subdomain_netlify/blob/main/ui_1.gif)
 
