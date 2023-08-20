@@ -25,13 +25,15 @@ function Projects() {
 			</div>
 
 			<div className="keen-slider__slide number-slide3 flex justify-center items-center">
-				<div className=" bg-[url('./images/square.png')] h-6/6 bg-cover rounded-xl border-2 border-black flex aspect-square  object-scale-down bg-center">
-					<h1 className="">Immersive 3d portfolio</h1>
+				<div className=" bg-[url('./images/popup.gif')] h-6/6 bg-cover rounded-xl border-2 border-black flex aspect-square  object-scale-down bg-center items-end">
+					<div className="w-full h-1/6 flex  items-center justify-center bottom-0 backdrop-brightness-50">
+						<span className="text-white text-lg text-bold   ">Pop-up Ad</span>
+					</div>
 				</div>
 			</div>
 
 			<div className="keen-slider__slide number-slide3 flex justify-center items-center">
-				<div className=" bg-[url('./images/square.png')] h-6/6 bg-cover rounded-xl border-2 border-black flex aspect-square  object-scale-down bg-center">
+				<div className=" bg-[url('./images/dash.png')] h-6/6 bg-cover rounded-xl border-2 border-black flex aspect-square  object-scale-down bg-center">
 					<h1 className="">Immersive 3d portfolio</h1>
 				</div>
 			</div>
