@@ -22,4 +22,5 @@ to design my own user interface for a mobile screen. I wanted to be able to show
 
 ## Technologies:
 
-React. Vite Tailwind CSS to style my application. Keen-slider for the horizontal card slider. React-Icon Library for social icons
+    -React
+    -Vite Tailwind CSS to style my application. -Keen-slider for the horizontal card slider. -React-Icon Library for social icons
