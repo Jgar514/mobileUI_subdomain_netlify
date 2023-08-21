@@ -18,7 +18,7 @@
 
 ## Goal:
 
-to design my own user interface for a mobile screen. I wanted to be able to show the most information without vertical scrolling. I got inspiration by the way facebook on a mobile device has horizontal scroll photo cards. It also offers the ability to tab between multiple windows so you can render new information without a page reload.
+- To design my own user interface for a mobile screen. I wanted to be able to show the most information without vertical scrolling. I got inspiration by the way facebook on a mobile device has horizontal scroll photo cards. It also offers the ability to tab between multiple windows so you can render new information without a page reload.
 
 ## Technologies:
 
