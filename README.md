@@ -19,3 +19,7 @@ Mobile User Interface
 <!-- [Link text](https://website-name.com) -->
 
 </div>
+
+##Goal: to design my own user interface for a mobile screen. I wanted to be able to show the most information without vertical scrolling. I got inspiration by the way facebook on a mobile device has horizontal scroll photo cards. It also offers the ability to tab between multiple windows so you can render new information without a page reload.
+
+##Technologies: React. Vite Tailwind CSS to style my application. Keen-slider for the horizontal card slider. React-Icon Library for social icons
