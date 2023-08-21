@@ -1,7 +1,3 @@
-Mobile User Interface
-
-//description_coming
-
 # UI.JoshuaGarvey.com
 
 <div align="center">
