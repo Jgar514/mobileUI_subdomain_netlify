@@ -30,9 +30,9 @@ export default function Header() {
 								</a>
 								<div className="flex gap-6 flex-row justify-center my-4">
 									<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/JoshandEllie" target="_blank" rel="noopener noreferrer">
-										Code
+										About
 									</a>
-									<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
+									<a className="text-sm px-4 py-2 h-10 border-2 border-black bg-green-400" href="https://joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
 										Live Demo
 									</a>
 								</div>
@@ -43,18 +43,20 @@ export default function Header() {
 								</a>
 								<div className="flex flex-row justify-center my-4 gap-6">
 									<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/subdomain_popup/blob/main/README.md" target="_blank" rel="noopener noreferrer">
-										Code
+										About
 									</a>
-									<a className="text-sm px-4 py-2 h-10 border-2 border-black">Live Demo</a>
+									<a className="text-sm px-4 py-2 h-10 border-2 border-black bg-green-400   " href="https://popup.joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
+										Live Demo
+									</a>
 								</div>
 							</li>
 							<li className="border-b-2 border-manilla-100 my-4 uppercase mx-auto">
-								<a href="https://github.com/Jgar514/ContactHub">Snow Remove</a>
+								<a href="https://github.com/Jgar514/removeSnow/blob/main/README.md">Snow Remove</a>
 								<div className="flex flex-row justify-center my-4 gap-6">
-									<a className="text-sm px-3 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/subdomain_popup/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+									<a className="text-sm px-3 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/removeSnow/blob/main/README.md" target="_blank" rel="noopener noreferrer">
 										about
 									</a>
-									<a className="text-sm px-3 py-2 h-10 border-2 border-black" href="https://youtu.be/mOTKgQKJZSM?si=pmf8c8Z6IJRjq6Nz&t=170" target="_blank" rel="noopener noreferrer">
+									<a className="text-sm px-3 py-2 h-10 border-2 border-black bg-green-400" href="https://youtu.be/mOTKgQKJZSM?si=pmf8c8Z6IJRjq6Nz&t=170" target="_blank" rel="noopener noreferrer">
 										Video Demo
 									</a>
 								</div>
