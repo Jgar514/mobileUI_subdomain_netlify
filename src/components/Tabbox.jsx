@@ -10,8 +10,8 @@ function Tabbox() {
 	};
 	return (
 		<React.Fragment>
-			<div className=" border-t-2 border-b-2 border-black h-full overflow-hidden  text-ol drop-shadow bg-white">
-				<Tabs className="text-black h-1/6 border-b-2 border-black" value={currentTabIndex} onChange={handleTabChange}>
+			<div className=" border-t-2 border-b-2 border-gray-400 h-full overflow-hidden  text-ol drop-shadow bg-white">
+				<Tabs className="text-red-600 h-1/6 border-b-2 border-black" value={currentTabIndex} onChange={handleTabChange}>
 					<Tab label="< Projects />" />
 					<Tab label="< Timeline />" />
 					<Tab label="< Info />" />

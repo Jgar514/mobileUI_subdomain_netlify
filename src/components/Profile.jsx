@@ -11,10 +11,12 @@ function Profile() {
 						<img src={propic} className=" rounded-full bg-white h-full w-auto mx-2 border-2  border-black " />
 						<div className="flex flex-col">
 							<h1 className="flex  text-2xl text-start  font-bold pt-1">Joshua Garvey</h1>
-							<p className="text-lg">"Status"</p>
+							<div className="px-4">
+								<p className="px-2  text-sm text-green-600 w-fit border-green-600 border-r-2 h-fit border-l-2 ">Open To Work</p>
+							</div>
 						</div>
 						<div className="p-3 mt-3">
-							<a className="bg-button text-type border-ol border-2 px-2 py-2 rounded" href="#">
+							<a className="bg-button text-type border-ol border-2 px-2 py-2 border-black rounded" href="#">
 								Resume
 							</a>
 						</div>

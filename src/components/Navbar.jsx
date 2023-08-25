@@ -18,20 +18,49 @@ export default function Header() {
 
 					<div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
 						<div className="absolute top-0 right-0 px-8 py-2" onClick={() => setIsNavOpen(false)}>
-							<svg className="h-8 w-8 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+							<svg className="h-8 w-8 text-gray-600 border-2 border-red-800 rounded-2xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
 								<line x1="18" y1="6" x2="6" y2="18" />
 								<line x1="6" y1="6" x2="18" y2="18" />
 							</svg>
 						</div>
 						<ul className="flex flex-col  ">
-							<li className="border-b border-gray-400 my-4 uppercase">
-								<a href="/about">Test1</a>
+							<li className="border-b-2 border-manilla-100 my-4 mx-auto uppercase">
+								<a href="https://joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
+									3D Website
+								</a>
+								<div className="flex gap-6 flex-row justify-center my-4">
+									<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/JoshandEllie" target="_blank" rel="noopener noreferrer">
+										Code
+									</a>
+									<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
+										Live Demo
+									</a>
+								</div>
+							</li>
+							<li className="border-b-2 border-manilla-100 mx-auto my-4 uppercase">
+								<a href="https://popup.joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
+									Poker Pop-up
+								</a>
+								<div className="flex flex-row justify-center my-4 gap-6">
+									<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/subdomain_popup/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+										Code
+									</a>
+									<a className="text-sm px-4 py-2 h-10 border-2 border-black">Live Demo</a>
+								</div>
+							</li>
+							<li className="border-b-2 border-manilla-100 my-4 uppercase mx-auto">
+								<a href="https://github.com/Jgar514/ContactHub">Snow Remove</a>
+								<div className="flex flex-row justify-center my-4 gap-6">
+									<a className="text-sm px-3 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/subdomain_popup/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+										about
+									</a>
+									<a className="text-sm px-3 py-2 h-10 border-2 border-black" href="https://youtu.be/mOTKgQKJZSM?si=pmf8c8Z6IJRjq6Nz&t=170" target="_blank" rel="noopener noreferrer">
+										Video Demo
+									</a>
+								</div>
 							</li>
 							<li className="border-b border-gray-400 my-4 uppercase">
-								<a href="/portfolio">Test2</a>
-							</li>
-							<li className="border-b border-gray-400 my-4 uppercase">
-								<a href="/contact">Test3</a>
+								<a href="https://github.com/Jgar514/ContactHub">Contact Hub</a>
 							</li>
 						</ul>
 					</div>
