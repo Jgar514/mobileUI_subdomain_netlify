@@ -33,7 +33,8 @@ function Tabbox() {
 					{currentTabIndex === 1 && (
 						<Box sx={{ p: 3 }}>
 							<Typography variant="h5">
-								<Quote />
+								{/* <Quote /> */}
+								<p>Project- Heatmap graph of study topics will be displayed here </p>
 							</Typography>
 						</Box>
 					)}
