@@ -1,5 +1,7 @@
 import React from "react";
 import propic from "../assets/propic.jpeg";
+import Modal from "./Modal";
+import Quote from "./Quotes";
 
 function Profile() {
 	return (
@@ -12,14 +14,15 @@ function Profile() {
 						<div className="flex flex-col">
 							<h1 className="flex  text-2xl text-start  font-bold pt-1">Joshua Garvey</h1>
 							<div className="px-4">
-								<p className="px-2  text-sm text-green-600 w-fit border-green-600 border-r-2 h-fit border-l-2 ">Open To Work</p>
+								<p className="px-2  text-sm text-green-600 w-fit border-green-600 border-r-2 h-fit border-l-2  animate-pulse">Open To Work</p>
 							</div>
 						</div>
-						<div className="p-3 mt-3">
-							<a className="bg-button text-type border-ol border-2 px-2 py-2 border-black rounded" href="#">
-								Resume
-							</a>
+						<div className="bg-transparent p-2">
+							<Modal />
 						</div>
+						{/* <a className="bg-button text-type border-ol border-2 px-2 py-2 border-black rounded" href="#">
+								Resume
+							</a> */}
 					</div>
 
 					{/* nametag */}
@@ -34,8 +37,9 @@ function Profile() {
 								</div> */}
 				</div>
 			</div>
-			<div className="h-1/2 bg-blue-50 border-black border-b-2 px-2">
-				<p className="text-m p-2 px-2 py-2 leading-normal font-burtons">I enjoy making web applications, challenging myself, and learning from others. </p>
+			<div className="h-1/2 bg-blue-50 border-black border-b-2 px-2 relative">
+				{/* <p className="text-m p-2 px-2 py-2 leading-normal font-burtons">I enjoy making web applications, challenging myself, and learning from others. </p> */}
+				<Quote />
 			</div>
 		</div>
 	);

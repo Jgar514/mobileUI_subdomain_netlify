@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail, AiOutlineSend, AiOutlineMenu, AiOutlineInstagram } from "react-icons/ai";
+import Modal2 from "./Modal2";
 
 function Bottom() {
 	const openInNewTab = (url) => {
@@ -7,7 +8,7 @@ function Bottom() {
 	};
 	return (
 		<div className="bg-izzy-500 h-1/6 flex flex-row border-black border-t-2 border-b-2 flex-wrap items-center justify-center p-2  ">
-			<div className="bg-manilla-100 border-2 border-black w-full rounded-3xl items-center  overflow-hidden    flex h-full px-0 z-50">
+			<div className="bg-manilla-100 border-2 border-black w-full rounded-3xl items-center  overflow-hidden    flex h-full px-0 z-40">
 				<div className="text-6xl w-full flex gap-8 py-0 px-4 ">
 					<button role="link" onClick={() => openInNewTab("https://github.com/Jgar514")}>
 						<AiFillGithub />
@@ -21,10 +22,10 @@ function Bottom() {
 					<button role="link" onClick={() => openInNewTab("https://www.instagram.com/joshgarvey/")}>
 						<AiOutlineInstagram />
 					</button>
-
-					<a href="">
+					<Modal2 />
+					{/* <a href="">
 						<AiOutlineSend />
-					</a>
+					</a> */}
 				</div>
 			</div>
 		</div>

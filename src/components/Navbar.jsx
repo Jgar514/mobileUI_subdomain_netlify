@@ -11,9 +11,9 @@ export default function Header() {
 			<nav>
 				<section className="MOBILE-MENU flex ">
 					<div className="HAMBURGER-ICON space-y-2" onClick={() => setIsNavOpen((prev) => !prev)}>
-						<span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-						<span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-						<span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+						<span className="block h-0.5 w-8 animate-pulse bg-black"></span>
+						<span className="block h-0.5 w-8 animate-pulse bg-black"></span>
+						<span className="block h-0.5 w-8 animate-pulse bg-black"></span>
 					</div>
 
 					<div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -62,7 +62,7 @@ export default function Header() {
 								</div>
 							</li>
 							<li className="border-b border-gray-400 my-4 uppercase">
-								<a href="https://github.com/Jgar514/ContactHub">Contact Hub</a>
+								<a href="https://github.com/Jgar514/ContactHub/blob/main/README.md">Contact Hub</a>
 							</li>
 						</ul>
 					</div>

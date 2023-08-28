@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Box, Tab, Tabs, Typography } from "@mui/material";
 import Projects from "./Projects";
+import Copiable from "./Copiable";
+import Info from "./Info";
+import Quote from "./Quotes";
+
 function Tabbox() {
 	const [currentTabIndex, setCurrentTabIndex] = useState(0);
 
@@ -15,6 +19,7 @@ function Tabbox() {
 					<Tab label="< Projects />" />
 					<Tab label="< Timeline />" />
 					<Tab label="< Info />" />
+					<Tab label="< Info />" />
 				</Tabs>
 				<div className="bg-izzy-600  ">
 					{/* TAB 1 Contents */}
@@ -27,14 +32,18 @@ function Tabbox() {
 					{/* TAB 2 Contents */}
 					{currentTabIndex === 1 && (
 						<Box sx={{ p: 3 }}>
-							<Typography variant="h5">Tab 2 Content: Heatmap Graph</Typography>
+							<Typography variant="h5">
+								<Quote />
+							</Typography>
 						</Box>
 					)}
 
 					{/* TAB 3 Contents */}
 					{currentTabIndex === 2 && (
-						<Box sx={{ p: 3 }}>
-							<Typography variant="h5">Tab 3 Content: Contact</Typography>
+						<Box sx={{ p: 1 }}>
+							<Typography variant="h5">
+								<Info />
+							</Typography>
 						</Box>
 					)}
 				</div>
