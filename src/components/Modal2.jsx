@@ -11,19 +11,22 @@ export default function Modal2() {
 			</button>
 			{showModal ? (
 				<>
-					<div className=" z-50 h-full overflow-hidden pt-2 bg-white justify-center items-center flex overflow-x-hidden fixed inset-0  outline-none focus:outline-none">
-						<div className="bg-white relative w-full my-6 mx-auto max-w-3xl">
+					<div
+						className="				lg:w-96 lg:h-680 lg:absolute   
+ z-50 h-full  overflow-hidden pt-2 bg-gray-300 justify-center items-center flex overflow-x-hidden fixed inset-0  outline-none focus:outline-none"
+					>
+						<div className="relative w-full my-6 mx-auto max-w-3xl">
 							{/*content*/}
 							<div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full outline-none focus:outline-none">
 								{/*header*/}
-								<div className="bg-gray-100 flex items-start w-full justify-between px-6 border-b border-solid border-slate-200 rounded-t h-fit mt-0 py-0 pt-2">
+								<div className="bg-gray-300 flex items-start w-full justify-between px-6 border-b border-solid border-slate-200 rounded-t h-fit mt-0 py-0 pt-2">
 									<h3 className="border-t-2 border-l-2 border-r-2 border-black px-2 text-3xl font-semibold bg-white pt-2">Contact</h3>
 									<button className="rounded-full bg-white px-2  text-black h-fit w-fit text-3xl leading-none font-semibold outline-none border-red-400 border-2 focus:outline-none" onClick={() => setShowModal(false)}>
 										<span className=" text-black   text-4xl  outline-none focus:outline-none">X</span>
 									</button>
 								</div>
 								{/*body*/}
-								<div className="bg-white h-5/6 mt-2 px-6 pb-2 object-contain">
+								<div className="bg-gray-300 h-5/6 mt-2 px-6 pb-2 object-contain">
 									<Contact />
 								</div>
 								{/*footer*/}
@@ -35,7 +38,6 @@ export default function Modal2() {
 							</div>
 						</div>
 					</div>
-					<div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
 				</>
 			) : null}
 		</>

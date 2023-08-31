@@ -10,7 +10,7 @@ export default function Modal() {
 			</button>
 			{showModal ? (
 				<>
-					<div className=" z-50 h-full bg-transparent justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0  outline-none focus:outline-none py-2">
+					<div className=" lg:w-96 lg:h-680 lg:absolute z-50 h-full bg-transparent justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0  outline-none focus:outline-none py-2 mb-2">
 						<div className="bg-transparent relative w-full my-6 mx-auto max-w-3xl">
 							{/*content*/}
 							<div className="border-2  rounded-lg shadow-lg relative flex flex-col w-full bg-transparent outline-none focus:outline-none">
