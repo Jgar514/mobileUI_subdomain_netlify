@@ -7,8 +7,8 @@ function Bottom() {
 		window.open(url, "_blank", "noreferrer");
 	};
 	return (
-		<div className="bg-izzy-500 h-1/6 flex flex-row border-black border-t-2 border-b-2 flex-wrap items-center justify-center p-2  ">
-			<div className="bg-manilla-100 border-2 border-black w-full rounded-3xl items-center  overflow-hidden    flex h-full px-0 z-40">
+		<div className=" lg:bg-white h-1/6 flex flex-row border-black border-t-2 border-b-2 flex-wrap items-center justify-center p-2  ">
+			<div className="bg-yellow2 lg:bg-yellow2 border-2 border-black w-full rounded-3xl items-center  overflow-hidden    flex h-full px-0 z-40">
 				<div className="text-6xl w-full flex gap-8 py-0 px-4 ">
 					<button role="link" onClick={() => openInNewTab("https://github.com/Jgar514")}>
 						<AiFillGithub />

@@ -1,8 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-// import IMAGES from "../images/Images";
 
-// import "./styles.css";
 
 function Projects() {
 	const [sliderRef] = useKeenSlider({

@@ -8,8 +8,33 @@ const quotes = [
 	},
 	{
 		author: "Josh Garvey",
+		quote: "Check out JoshuaGarvey.com ",
+	},
+	{
+		author: "Josh Garvey",
 		quote: "I live in Annapolis Maryland",
 	},
+	{
+		author: "Josh Garvey",
+		quote: "I mainly use HTML, CSS, Javascript, and React",
+	},
+	{
+		author: "Josh Garvey",
+		quote: "This project uses TailwindCss for the styling",
+	},
+	{
+		author: "Josh Garvey",
+		quote: "I believe how you do anything is how you do everything",
+	},
+	{
+		author: "Josh Garvey",
+		quote: "I enjoy competing in the game of no limit texas holdem",
+	},
+	{
+		author: "Josh Garvey",
+		quote: "Lets collaborate!",
+	},
+
 	{
 		author: "Josh Garvey",
 		quote: "I'm a brother to 4 and an uncle to 6",

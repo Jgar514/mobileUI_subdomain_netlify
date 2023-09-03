@@ -19,7 +19,6 @@ function Tabbox() {
 					<Tab label="< Projects />" />
 					<Tab label="< Timeline />" />
 					<Tab label="< Info />" />
-					<Tab label="< Info />" />
 				</Tabs>
 				<div className="bg-izzy-600  ">
 					{/* TAB 1 Contents */}

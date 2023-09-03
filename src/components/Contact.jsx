@@ -62,18 +62,18 @@ const Contact = () => {
 
 	return (
 		<div className=" ">
-			<form ref={formRef} onSubmit={handleSubmit} className="bg-manilla-100   flex flex-col gap-2 pb-2 px-2 py-2 border-black border-2 ">
+			<form ref={formRef} onSubmit={handleSubmit} className="bg-neutral   flex flex-col gap-2 pb-2 px-2 py-2 border-black border-2 ">
 				<label className="flex flex-col ">
-					<span className="text-white text-xl mb-0 bg-gray-800   px-2 py-2">Your Name:</span>
-					<input type="text" name="name" value={form.name} onChange={handleChange} placeholder="What do you like to be called?" className="text-xl mb-2 px-2 py-2" />
+					<span className="text-black text-xl mb-0 bg-gray-800   px-2 py-2">Your Name:</span>
+					<input type="text" name="name" value={form.name} onChange={handleChange} placeholder="What do you like to be called?" className="text-xl mb-2 px-2 border-black border py-2" />
 				</label>
 				<label className="flex flex-col">
-					<span className="text-white text-xl mb-0 h-fit bg-gray-800 px-2 py-2 ">Your email</span>
-					<input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email?" className="text-xl px-2 py-2 mb-2" />
+					<span className="text-black text-xl mb-0 h-fit bg-gray-800 px-2 py-2 ">Your email</span>
+					<input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email?" className="text-xl px-2 py-2 mb-2 border-black border" />
 				</label>
 				<label className="flex flex-col">
-					<span className="text-white text-xl mb-0 h-fit bg-gray-800 px-2 py-2">Your Message</span>
-					<textarea rows={5} name="message" value={form.message} onChange={handleChange} placeholder="Good Work!" className="text-xl px-2 py-2" />
+					<span className="text-black text-xl mb-0 h-fit bg-gray-800 px-2 py-2">Your Message</span>
+					<textarea rows={5} name="message" value={form.message} onChange={handleChange} placeholder="Good Work!" className="text-xl px-2 py-2 border-black border" />
 				</label>
 				<div className="flex justify-end px-4">
 					<button type="submit" className="bg-white   rounded-xl outline-none w-fit text-green-700 font-bold shadow-xl shadow-primary text-xl px-4 py-4 h-fit  ">
