@@ -12,6 +12,19 @@ const quotes = [
 	},
 	{
 		author: "Josh Garvey",
+		quote: "Github.com/Jgar514 ",
+	},
+	{
+		author: "Josh Garvey",
+		quote: "Custom mobile user interface designed and built by me",
+	},
+	{
+		author: "Josh Garvey",
+		quote: "Do the thing and you shall have the power",
+	},
+
+	{
+		author: "Josh Garvey",
 		quote: "I live in Annapolis Maryland",
 	},
 	{
@@ -20,7 +33,7 @@ const quotes = [
 	},
 	{
 		author: "Josh Garvey",
-		quote: "This project uses TailwindCss for the styling",
+		quote: "This project uses TailwindCSS for the styling",
 	},
 	{
 		author: "Josh Garvey",
@@ -70,7 +83,7 @@ export default class Quote extends React.Component {
 					<p>“{quotes[this.state.quoteIdx].quote}“</p>
 				</div>
 				<div className="flex justify-end">
-					<button className="bg-transparent  text-red-600  text-2xl absolute right-2 bottom-0 h-fit" type="button" onClick={this.sayHello}>
+					<button className="bg-transparent  text-red1  text-2xl absolute right-2 bottom-0 h-fit" type="button" onClick={this.sayHello}>
 						<BiRefresh className="" />
 					</button>
 				</div>

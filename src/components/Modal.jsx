@@ -18,7 +18,7 @@ export default function Modal() {
 							{/*content*/}
 							<div className="border-2  rounded-lg shadow-lg relative flex flex-col w-full bg-transparent outline-none focus:outline-none">
 								{/*header*/}
-								<div className=" flex items-start w-full justify-between px-6 pt-2 border-b-2 border-black border-solid  rounded-t h-fit pb-0 ">
+								<div className=" flex items-start w-full justify-between px-2 pt-2 border-b-2 border-black border-solid  rounded-t h-fit pb-0 ">
 									<h3 className="bg-white px-3 text-3xl font-semibold h-full pt-1 border-black border-2 border-b-0">Resume</h3>
 									<button className=" bg-white pb-1 pt-1 h-fit  border-2 px-3 border-red-400 text-black rounded-full  opacity-100 text-3xl leading-none font-semibold outline-none focus:outline-none" onClick={() => setShowModal(false)}>
 										<span className=" text-black  h-fit w-6 text-3xl  outline-none focus:outline-none">X</span>

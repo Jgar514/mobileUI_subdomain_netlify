@@ -29,8 +29,11 @@ function App() {
 		<>
 			{/*  */}
 
-			<button type="button" className="measure-button invisible md:visible rounded bg-red-600 border-2 border-black p-2 h-fit absolute w-fit top-8   left-20" onClick={toggleMeasure}>
-				<p className="invisible text-white md:visible">Show Measurements</p>
+			<button type="button" className="measure-button invisible md:visible rounded-3xl bg-red-600 border-2 border-black p-2 h-fit absolute w-fit top-4   left-4 shadow-lg" onClick={toggleMeasure}>
+				<p className="invisible text-white md:visible">
+					Toggle
+					<br /> Measurements
+				</p>
 			</button>
 
 			{showMeasure ? (

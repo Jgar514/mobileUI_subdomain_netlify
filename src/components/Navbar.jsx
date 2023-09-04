@@ -22,7 +22,7 @@ export default function Header() {
  z-50 h-full  overflow-hidden   justify-center items-center flex overflow-x-hidden fixed inset-0  outline-none focus:outline-none py-8"
 						>
 							<div className="absolute top-2 right-0 px-8 py-2" onClick={() => setIsNavOpen(false)}>
-								<svg className="h-8 w-8 text-gray-600 border-2 border-red-800 rounded-2xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+								<svg className="h-8 w-8 text-gray-600 border-2 border-red1 rounded-2xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
 									<line x1="18" y1="6" x2="6" y2="18" />
 									<line x1="6" y1="6" x2="18" y2="18" />
 								</svg>
@@ -33,7 +33,7 @@ export default function Header() {
 										3D Website
 									</a>
 									<div className="flex gap-6 flex-row justify-center my-4">
-										<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/JoshandEllie" target="_blank" rel="noopener noreferrer">
+										<a className="text-sm px-4 py-2 h-10 border-2 border-black" href="https://github.com/Jgar514/JoshandEllie/blob/main/README.md" target="_blank" rel="noopener noreferrer">
 											About
 										</a>
 										<a className="text-sm px-4 py-2 h-10 border-2 border-black bg-green-400" href="https://joshuagarvey.com/" target="_blank" rel="noopener noreferrer">
